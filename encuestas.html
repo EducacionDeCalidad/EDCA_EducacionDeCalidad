@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Educacion de calidad</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <style type="text/css">
+        /*reglas CSS*/
+        /*reglas CSS*/
+
+        
+        @import url ('https://fonts.googleapis.com/css2? family = Dancing + Script: wght @ 700 & display = swap'); 
+        @import url ('https://fonts.googleapis.com/css2? family = Amiri: wght @ 700 & display = swap');
+        
+
+        
+            
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                text-decoration: none
+                flex-wrap:wrap;
+            }
+
+            header{
+                margin-right: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 80px;
+                background-color: #fff;
+                box-shadow: 0 4px 25px -22px black;
+                z-index: 2;
+            }
+
+            .header-content{
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .logo{
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .logo h1 b{
+                color: #E7D8B4
+            }
+
+
+            .menu{
+                height: 80px;
+                font-size: 15px;
+            }
+
+
+            .menu nav{
+                height: 100%;
+                display: flex;
+                font-size: 15px;
+            }
+
+
+            .menu nav ul{
+                height: 100%;
+                display: flex;
+                list-style: none;
+                font-size: 15px;
+            }
+
+
+            .menu nav ul li{
+                height: 100%
+                margin: 25% 25px;
+                justify-content: center;
+                display: center;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                font-size: 15px;
+                color-font: #000000;
+            }
+                
+
+
+            .menu nav ul li- break-before{
+                content: ''
+                width: 140%;
+                height: 4px;
+                background-color: #E7D8B4;
+                display: unset;
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 15px;
+                color-font: #000000;
+
+
+            }
+
+            .menu li a{
+                background-color: #fff;
+                color-font: #000000;
+                text-decoration: none;
+                padding: 20px 20px;
+                display: block;
+                font-size: 15px;
+                color-font: #000000;
+            }
+
+            .menu nav > li {
+                float: left;
+                font-size: 15px;
+                color-font: #000000;
+            }
+
+
+            .menu nav ul li a:hover{
+                color: #000000;
+                color-font: #000000;
+                background-color: #E7D8B4;
+                transition: color 300ms;
+                font-size: 15px;
+            }
+
+
+            .menu nav li ul{
+                display: none;
+                position: absolute;
+                min-width: 100px;
+                font-size: 15px;
+            }
+
+            .menu nav li:hover> ul{
+                display: block;
+
+            }
+
+            /*Portada*/
+
+
+            .container-cover{
+                width: 100%;
+                height: 500px;
+                position: relative;
+                margin-top: 80px;
+                background-image: url(img/img9.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                flex-wrap: wrap;
+            }
+
+
+            .container-cover:before{
+                content: ''
+                width:100%;
+                height:100%;
+                background-color: #FBEEE6;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+
+            .container-cover-info{
+                max-width: 500px;
+                height: 500px;
+                margin: auto;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+            }
+
+
+            .container-cover-info h1{
+                font-size: 125px;
+                font-weight: 500px;
+                color: #fff;
+                margin-bottom: 10px;
+                font-family: 'Amiri', serif;
+
+            }
+
+
+            .container-cover-info h2{
+                color: #BF8E00;
+                font-size:50px;
+                font-weight: 300px;
+                font-family: 'Dancing Script', cursiva;
+            }
+
+
+            /*Contenedor - contenido del articulo*/
+
+            .container-content {
+                width: 1200px;
+                margin: auto;
+                margin-top: 45px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+            article {
+                width: 100%;
+                padding: 30px;
+                padding-bottom: 50px;
+                box-shadow: -30px 0 -30px  black;
+                position: relative;
+                border-radius: 50px;
+                overflow: hidden;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                flex-wrap: wrap;
+
+
+            }
+
+            article:before{
+                content:''
+                width:100%;
+                height: 6px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background: #FBEEE6;
+                display: flex;
+
+
+
+            }
+
+            article h2{
+                margin-top: 20px;
+                font-weight: 500;
+                font-size:40px;
+            }
+
+
+             article h3{
+                margin-top: 20px;
+                font-weight: 10;
+                font-size:30px;
+            }
+
+
+           article p{
+            margin-top: 30px;
+            font-size: 20px;
+            color: #3c3c3c;
+
+           }
+
+
+
+           article img{
+            width: 100%;
+            margin-top: 20px;
+           }
+
+
+
+
+            *{
+            list-style: none;
+           }
+
+           .menu nav ul li{
+            list-style: none;
+           }
+
+
+          .container-content {
+            font-family: 'Levenim MT', serif;
+            
+          }
+
+          .container-content h2{
+            font-family: 'Copperplate Gothic Light', serif;
+            font-size: 50px;
+
+          }
+
+          h3{
+            font-family: 'Copperplate Gothic Light', serif;
+            font-size: 35px;
+          }
+
+          p{
+            font-family: 'Levenim MT', serif;
+            font-size: 25px;
+          }
+
+          .home{
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+        </style>
+    </head>
+    <body>
+        <section class="home">
+        <div id="page" class="page page-img"></div>
+        <!--Header - menu-->
+             <header class="header-framework header-framework_img">
+                <div class="header-content">
+                    <div class="logo">
+                        <h1>ED<b>CA</b></h1>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="Index.html">Inicio</a>
+                                </li>                                                   
+                            <li class="toclevel-1 tocsection-1">
+                                <a href="quehacemos.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">¿Que hacemos?</span>
+                                </a>
+                                
+                            
+                            </li>
+                            <li class="toclevel-1 tocsection-4">
+                                <a href="encuestas.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">Encuestas realizadas</span>
+                                </a>
+                                
+                                
+                            </li>
+                            <li class="toclevel-1 tocsection-8">
+                                <a href="quienessomos.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">¿Quienes somos?</span>
+                                </a>
+                                
+                                    </li>
+                                </ul>
+                                
+                              
+                            <li class="toclevel-1 tocsection-13">
+                                <a href="actualidad.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">Actualidad</span>
+                                </a>
+                            </li>   
+                            </ul>
+                        </nav>
+
+                        
+                    </div>
+
+                </div>
+            </header> <header class="header-framework header-framework_img">
+                <div class="header-content">
+                    <div class="logo">
+                        <h1>ED<b>CA</b></h1>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="Index.html">Inicio</a>
+                                </li>                                                   
+                            <li class="toclevel-1 tocsection-1">
+                                <a href="quehacemos.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">¿Que hacemos?</span>
+                                </a>
+                                
+                                
+                            </li>
+                            <li class="toclevel-1 tocsection-4">
+                                <a href="encuestas.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">Encuestas realizadas</span>
+                                </a>
+                                
+                                
+                            </li>
+                            <li class="toclevel-1 tocsection-8">
+                                <a href="quienessomos.html">
+                                    <span class="tocnumber"></span>
+                                    <span class="toctext">¿Quienes somos?</span>
+                                </a>
+                                
+                                    </li>
+                                </ul>
+                                
+                              
+                              
+                            </ul>
+                        </nav>
+
+                        
+                    </div>
+
+                </div>
+            </header>
+        <!--Portada-->
+        <div class="container-cover">
+            <div class="container-cover-info">
+                <h1>EDCA</h1>
+                <h2>Educacion De Calidad</h2>
+            </div>
+        </div>
+        <div class="container-content">
+            <article>
+                <h2 id="mw-toc-heading">Encuesta realizada</h2>
+                    <p>
+                    <br>
+                        hemos realizado una <a href="https://docs.google.com/forms/d/1O_KTh1-IELfchU_mLHxHXLO9rNGYSbpTl7pDxlV_nIE/edit" target="_BLANK">encuesta</a> a una poblacion de 13 a 18 años de edad en la ciudad de Bogota-Colombia, y hemos analizado los siguientes datos. (Haga click en encuesta para ver los resultados) <br>
+                        
+                        <br><br>
+                        <img src="img/img10.jpg"><br><br>
+                         <h3>causa y efecto</h3><br><br>
+                         RECURSOS<br>
+                         Los recursos son importantes en la educación y estos recursos en colombia no dan a vasto una educación de calidad<br><br>
+                         PROYECTOS<br>
+                         Se están desarrollando proyectos  para mejor la educación y estos proyectos dan cobertura a todo el país<br><br>
+                         MEDIDAS<br>
+                         Los medios en que se desarrollen los proyectos para el mejoramiento de la educación <br>
+                         Medidas tomadas por las autoridades para cumplir con los proyectos<br><br>
+                         ESCUELAS<br>
+                         Las escuelas no están brindando una educación de calidad<br>
+                         Las escuelas de elite dan mejor educación<br><br>
+                         CALIFICACIONES<br>
+                         Las calificaciones no evidencian una educación buena<br>
+                         Las elites tienen mejores notas que cualquier otro colegio<br><br>
+                         PROFESOR<br>
+                         Los profesores van de la mano con el aprendizaje <br>
+                         Depende al método de aprendizaje<br><br>
+                         EFECTO<br>
+                         ¿Hay educación de calidad en Colombia?<br><br>
+
+                        <h3>Resultados de las respuestas cualitativas en nube de palabras</h3><br><br>
+                        <a href="https://wordart.com/vepaj3p3r4e3/la-infraestructura-del-colegio-donde-estudia-es-de-buena-calidad-y-apropiada-pa" target="_BLANK">  ver resultado de la pregunta 1</a><br><br>
+                        <a href="https://wordart.com/1vz4ht6wt041/cree-usted-como-estudiante-que-en-su-colegio-son-tomadas-m%C3%A1s-en-cuenta-las-nota" target="_BLANK">ver resultado de la pregunta 2 </a><br><br>
+                        <a href="https://wordart.com/6miynkfxl96z/piensa-usted-que-la-calidad-de-la-educaci%C3%B3n-depende-del-costo-de-esta-es-decir" target="_BLANK">ver resultado de la pregunta 3 </a><br><br>
+                        <a href="https://wordart.com/047q6nbzvnl5/considera-usted-que-el-nivel-de-aprendizaje-de-los-estudiantes-depende-de-c%C3%B3mo" target="_BLANK">ver resultado de la pregunta 4 </a><br><br>
+                        <a href="https://wordart.com/zistm49om4s5/est%C3%A1-de-acuerdo-en-que-parte-del-presupuesto-gubernamental-para-la-educaci%C3%B3n-se" target="_BLANK">ver resultado de la pregunta 5 </a><br><br>
+                        <a href="https://wordart.com/wj3pj7xm4fl6/considerando-que-los-colegios-p%C3%BAblicos-cuentan-con-mejor-infraestructura-y-recur" target="_BLANK">ver resultado de la pregunta 6 </a><br><br>
+
+
+
+                                                    
+
+                    </p>
+                        <span class="toctogglespan">
+                            <label class="toctogglelabel" for="toctogglecheckbox"></label>
+                        </span>         
+            </article>
+        </div>
+
+                <div id="top"></div>
+                    <div class="container header-container"></div>
+                        <a href="/" class="menu-logo">
+                            <img src="/Content/images/logo.png" alt class="header__logo">
+                        </a>
+                        <a href="/" class="menu-logo__small">       <img src="/Content/images/logo-small.png" alt class="header__logo"> </a>
+                    <div class="menu-nav">
+                        <ul class="menu-nav__first list-header">
+                        </ul>
+                    </div>
+                    <div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading">…</div>
+                    <input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none">
+                    <div class="toctitle" lang="es" dir="ltr">
+                        
+                    </div>
+                </div>
+            </header>
+        </div>
+    </body>
+</html>
+
+
+
